@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reproducible Pitch for a &quot;Simple&quot; Shiny App</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Reproducible Pitch for a &quot;Simple&quot; Shiny App">
+  <meta name="author" content="John Michael Robertson">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Reproducible Pitch for a &quot;Simple&quot; Shiny App</h1>
+    <h2>Demonstrate the usefulness of Slidify as a means for a reproducible presentation. The very simplistic Shiny App is presented using Slidify, whereby the same interactive presentation can be reproduced many times very simply.</h2>
+    <p>John Michael Robertson<br/>In partial requirement for Coursera class - Developing Data Products by Johns Hopkins</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Reproducible Pitch</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>The &quot;Simple Demo&quot; Shiny App is a very simplistic demonstration of Shiny</li>
+<li>Although basic and generic, the app illustrates the power of Shiny as a means for reproducible demonstrations</li>
+<li>The &quot;Simple Demo&quot; Shiny App can be effecively used as a teaching illustration</li>
+</ol>
+
+<h3>What type of app do you expect for demonstration purposes?</h3>
+
+<ul>
+<li>Would you prefer something elaborate with lots of bells and whistles?</li>
+<li>Or, would a simple illustration be preferable?</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Slide 3</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The location of the &quot;Simle Demo&quot; Shiny App is :
+<a href="http://johnmichaelr.shinyapps.io/SimpleDemo">http://johnmichaelr.shinyapps.io/SimpleDemo</a></p>
+
+<p>Purpose of the "Simple Demo" application is to illustrate the ease and simplicity of generating a Histogram with the "mtcars" dataset. The user can select any attribute from the mtcars dataset and a histogram will automatically display based upon the user attribute selection</p>
+
+<h3>Example of output provided to user</h3>
+
+<pre><code class="r">library(datasets)
+
+hist(mtcars$mpg, xlab=&quot;mpg&quot;)
+</code></pre>
+
+<p><img src="assets/fig/unnamed-chunk-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+
+<pre><code class="r"># close the plot
+dev.off()
+</code></pre>
+
+<pre><code>## null device 
+##           1
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Future Version of &quot;Simple Demo&quot;</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Future versions of the Simple Demo will include dynamic selection of a dataset from the "datasets" library. Another option is to include the linear model plot of the dynamically selected dataset and outcome~predictor</p>
+
+<h3>Example of a future version</h3>
+
+<p><img src="assets/fig/unnamed-chunk-21.png" alt="plot of chunk unnamed-chunk-2"> <img src="assets/fig/unnamed-chunk-22.png" alt="plot of chunk unnamed-chunk-2"> <img src="assets/fig/unnamed-chunk-23.png" alt="plot of chunk unnamed-chunk-2"> <img src="assets/fig/unnamed-chunk-24.png" alt="plot of chunk unnamed-chunk-2"> </p>
+
+<pre><code>## null device 
+##           1
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Conclusion</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><b>Keep It Simple</b></p>
+
+<ul>
+<li>Simplicity keeps the focus on the tool</li>
+<li>User attention is drawn away when complexity is added</li>
+</ul>
+
+<p>
+The "Simple Demo" is just what it says, very simple. A user or student can visualize the interactivity of Shiny without getting lost in too much complexity or visualizations. 
+</p>
+
+<p><em>The sole purpose of the app is to illustrate Shiny as:</em></p>
+
+<ol>
+<li>User Friendly Interactivity</li>
+<li>Reproducible R code</li>
+<li>Interactive R code</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Reproducible Pitch'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Slide 3'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Future Version of &quot;Simple Demo&quot;'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Conclusion'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

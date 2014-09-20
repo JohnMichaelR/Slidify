@@ -48,12 +48,12 @@ dev.off()
 <p>Future versions of the Simple Demo will include dynamic selection of a dataset from the "datasets" library. Another option is to include the linear model plot of the dynamically selected dataset and outcome~predictor.</p>
 
 ### Example of a future version
+<p>Demonstrate the functionality of a plot with a linear model applied.</p>
 ``` {r echo=FALSE, fig.height=3, fig.width=7}
-fit <- lm(mpg ~ cyl + wt, data=mtcars)
-plot(fit)
+fit <- lm(mpg ~ wt, data=mtcars)
+plot(x=mtcars$wt, y=mtcars$mpg, xlab="Weight", ylab="MPG")
+abline(fit, col=2)
 
-# close the plot
-dev.off()
 ```
 
 

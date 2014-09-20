@@ -55,15 +55,11 @@ dev.off()
 
 ## Future Version of "Simple Demo"
 
-<p>Future versions of the Simple Demo will include dynamic selection of a dataset from the "datasets" library. Another option is to include the linear model plot of the dynamically selected dataset and outcome~predictor</p>
+<p>Future versions of the Simple Demo will include dynamic selection of a dataset from the "datasets" library. Another option is to include the linear model plot of the dynamically selected dataset and outcome~predictor.</p>
 
 ### Example of a future version
-![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-21.png) ![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-22.png) ![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-23.png) ![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-24.png) 
-
-```
-## null device 
-##           1
-```
+<p>Demonstrate the functionality of a plot with a linear model applied.</p>
+![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2.png) 
 
 
 --- .class #id 

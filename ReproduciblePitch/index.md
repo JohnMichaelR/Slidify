@@ -23,13 +23,13 @@ knit        : slidify::knit2slides
 
 --- .class #id 
 
-## Slide 3
+## Overview of ShinyApp
 
 The location of the "Simle Demo" Shiny App is :
 [http://johnmichaelr.shinyapps.io/SimpleDemo](http://johnmichaelr.shinyapps.io/SimpleDemo)
 
 
-<p>Purpose of the "Simple Demo" application is to illustrate the ease and simplicity of generating a Histogram with the "mtcars" dataset. The user can select any attribute from the mtcars dataset and a histogram will automatically display based upon the user attribute selection</p>
+<p>Purpose of the "Simple Demo" application is to illustrate the ease and simplicity of generating a Histogram with the "mtcars" dataset. The user can select any attribute from the mtcars dataset and a histogram will automatically display based upon the user attribute selection.</p>
 
 ### Example of output provided to user
 
@@ -39,7 +39,7 @@ library(datasets)
 hist(mtcars$mpg, xlab="mpg")
 ```
 
-![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1.png) 
+![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2.png) 
 
 ```r
 # close the plot
@@ -59,7 +59,7 @@ dev.off()
 
 ### Example of a future version
 <p>Demonstrate the functionality of a plot with a linear model applied.</p>
-![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2.png) 
+![plot of chunk unnamed-chunk-3](assets/fig/unnamed-chunk-3.png) 
 
 
 --- .class #id 

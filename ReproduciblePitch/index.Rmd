@@ -10,7 +10,10 @@ widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
-
+```{r echo=FALSE}
+library(markdown)
+library(knitr)
+```
 ## Reproducible Pitch
 
 1. The "Simple Demo" Shiny App is a very simplistic demonstration of Shiny
@@ -23,13 +26,13 @@ knit        : slidify::knit2slides
 
 --- .class #id 
 
-## Slide 3
+## Overview of ShinyApp
 
 The location of the "Simle Demo" Shiny App is :
 [http://johnmichaelr.shinyapps.io/SimpleDemo](http://johnmichaelr.shinyapps.io/SimpleDemo)
 
 
-<p>Purpose of the "Simple Demo" application is to illustrate the ease and simplicity of generating a Histogram with the "mtcars" dataset. The user can select any attribute from the mtcars dataset and a histogram will automatically display based upon the user attribute selection</p>
+<p>Purpose of the "Simple Demo" application is to illustrate the ease and simplicity of generating a Histogram with the "mtcars" dataset. The user can select any attribute from the mtcars dataset and a histogram will automatically display based upon the user attribute selection.</p>
 
 ### Example of output provided to user
 ``` {r echo=TRUE, fig.height=3, fig.width=7}
